@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/encrypt" element={<Encrypt type="encryption" />} />
         <Route path="/decrypt" element={<Decrypt type="decryption" />} />
+        <Route path="/*" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   );
